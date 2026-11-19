@@ -40,7 +40,7 @@ internal sealed class CalculatorForm : Form
         display.BorderStyle = BorderStyle.None;
         display.BackColor = BackColor;
         display.ForeColor = Color.White;
-        display.Font = new Font("Segoe UI",  thirty: 30F, FontStyle.Regular);
+        display.Font = new Font("Segoe UI", 30F, FontStyle.Regular);
 
         var displayPanel = new Panel
         {
